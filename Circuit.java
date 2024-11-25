@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 
 public class Circuit { /*extends ? abstract ?*/
+
+
         protected ArrayList<Composante> contenu;
         protected ArrayList<Signal> internal;
         protected ArrayList<Signal> outputs;

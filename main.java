@@ -3,13 +3,13 @@ import java.util.ArrayList;
 
 public class main {
 
-        //public static String btos(boolean[] vec) {
-        //        String ch = "";
-        //        for (int i = 0; i < vec.length; i++) {
-        //                ch += vec[i] ? 1 + "\t" : 0 + "\t";
-        //        }
-        //        return ch + "\n";
-        //}
+        public static String btos(boolean[] vec) {
+                String ch = "";
+                for (int i = 0; i < vec.length; i++) {
+                        ch += vec[i] ? 1 + "\t" : 0 + "\t";
+                }
+                return ch + "\n";
+        }
 
         public static void test1() {
                 Composante c1 = new Composante();
